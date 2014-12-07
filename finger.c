@@ -17,7 +17,7 @@
 // max/min serveo angles are 0/180
 // Picked 60 as our horizontal position
 #define arm_zero_pos 60
-#define s_final_pull_pos (arm_zero_pos+90)
+#define s_final_pull_angle 90
 // Should be -45, but for some reason the servo is reversed???
 #define l_lift_pos (arm_zero_pos+45)
 
@@ -50,8 +50,14 @@ l_myservo.write(l_init_pos);              // tell servo to go to position in var
 
 void pull_forward(void)
 {
+int pull_inc =s_final_pull_angle/3;
+
 delay(50);
-s_myservo.write(s_final_pull_pos);      // tell servo to go to position in variable 'pos' 
+s_myservo.write(arm_zero_pos+pull_inc);      // tell servo to go to position in variable 'pos' 
+delay(50);
+s_myservo.write(arm_zero_pos+2*pull_inc);      // tell servo to go to position in variable 'pos' 
+delay(50);
+s_myservo.write(arm_zero_pos+3*pull_inc);      // tell servo to go to position in variable 'pos' 
 }
 
 void lift_long(void)
