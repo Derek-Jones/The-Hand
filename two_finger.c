@@ -16,7 +16,7 @@
 #define Lr_pin 3
 #define Sr_pin 5
 #define Ll_pin 6
-#define Sl_pin 7
+#define Sl_pin 9
 
 // max/min servo angles are 0/180
 // Picked 90 as our horizontal position
