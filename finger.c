@@ -1,4 +1,4 @@
-/*
+*
  * sweep.c,  7 Dec 14
  * DJ
  * resin.io hackathon
@@ -90,4 +90,5 @@ while (1)
    }
 
 } 
+
 
