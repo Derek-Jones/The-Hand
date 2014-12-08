@@ -2,7 +2,7 @@ resin.io hackathon, 6-7 Dec 2014
 
 Build a working Adams family hand
 
-Two servos are used to simulate a finger.  The action is pull (rotate down) forward with short segment, lift up with long segment, straighten sort segment, drop to neutral poisiton, repeat.
+Two servos are used to simulate a finger.  The action is pull (rotate down) forward with short segment, lift up with long segment, straighten short segment, drop long segment to neutral positon, repeat.
 
 Everything is controlled by an Intel Edison board.
 
