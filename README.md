@@ -8,3 +8,5 @@ Everything is controlled by an Intel Edison board.
 
 Two fingers are enough to give x-y movement
 
+A video (thanks to Sidd) of its frightening shriek! It goes up and down a bit better than forward:
+https://www.youtube.com/watch?v=YCjQuVOkJyI&list=UU5DUBi2O7X_NIe1vtv4f3Ng
